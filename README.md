@@ -27,7 +27,15 @@ var log = require('electron-log');
 
 log.info('Hello, log');
 ```
-    
+
+### Log levels
+
+ - error `log.error('error, log');`
+ - warn `log.warn('warn, log');`
+ - info `log.info('info, log');`
+ - verbose `log.verbose('verbose, log');`
+ - debug `log.debug('debug, log');`
+ - silly `log.silly('silly, log');`
 
 ### Transport
 Transport is a simple function which requires an object which describes a message.
